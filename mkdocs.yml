@@ -1,0 +1,44 @@
+site_name: My Docs
+site_name : Ponny Documentation
+site_url : https://ponnyekspress.docs
+
+theme : 
+    name : material
+    features : 
+      - search.suggest
+      - search.highlight
+      - content.tabs.link
+      - navigation.instant
+      - navigation.instant.prefetch
+
+    palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    font:
+      text: Roboto
+
+nav : 
+  - Dashboard : "index.md"
+  - Client : "client/client.md"
+  - Config : "config.md"
+  - Job Transaction : "jobtransaction/job.md"
+  - Log System : "log/crud.md"
+  - PDF Templates : "pdf/pdf_template.md"
+  - User : 
+    - User : "user/user.md"
+    - Activation : "user/activation/crud.md"
+    - Profile : "user/uploadprofile/crud.md"
+    - Absen : "user/absen/crud.md"
+    - Change Password : "user/changepassword/crud.md"
+    - Zipcode : "user/zipcode/crud.md"
+    
